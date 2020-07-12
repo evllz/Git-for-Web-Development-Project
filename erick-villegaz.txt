@@ -1,0 +1,89 @@
+https://codepen.io/evllz/pen/XWXYVPP?editors=1100
+
+    1. What is Semantic HTML? 
+	A: It's a HTML that uses tags with a meaning for the browser or the developer. I.E. header, nav, section, article, section, etc.
+    2. What is HTML used for?
+	A: HTML describes the structure of a Web page with of a series of elements. Elements tell the browser how to display the content. 
+    3. What is an attribute and where do we put it? 
+	A:Attributes provide additional information about elements and are always specified in the start tag, usually come in name/value pairs like: name="value".
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	A: It's the tag for the most importat heading(s) and it only should be use for that.
+    5. Name two tags that have required attributes
+	A: img and a
+    6. What do we put in the head of our HTML document? 
+	A: The following lements can be used inside of the head element: title, style, base,link, meta, script, noscript.
+    7. What is an id? 
+	A: The id attribute specifies a unique id for an HTML element and the value of the id attribute must be unique within the HTML document. The id attribute is used to point to a specific style declaration in a style sheet.
+    8. What elements can I add an id to? 
+	A: All elements can have an id.
+    9. How many times can I use the same id on a page? 
+	A: Only once.
+    10. What is a class? 
+	A:The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+    11. What elements can I add a class to? 
+	A: All elements can have a class.
+    12. How many times can I use the same class on a page? 
+	A: As many as needed.
+    13. How do I get my link to open in a new tab?
+	A: Using the target attribute.
+    14. What is the alt attribute in the image tag used for?
+	A: Specifies an alternate text for the image, if the image for some reason cannot be displayed.
+    15. How do I reference an id?
+	A: Write a hash (#) character, followed by the id of the element.
+    16. What is the difference between a section and a div
+	A: The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document. whereas: The <div> tag defines a division or a section in an HTML document. The <div> tag is used to group block-elements to format them with CSS.
+    17. What is CSS used for? 
+	A: CSS is a language that describes the style of an HTML document, it describes how HTML elements should be displayed.
+    18. How to we select an element? Example - every h2 on the page
+	A: Using the same tag, class or id of the element.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A: A class aplies to several elements that are going to be use in the same way and the id is for a unique element that it's going to be use alone.
+    20. How do we select classes in CSS?
+	A: Using a period (.) followed by the class name.
+    21. How do we select a p element with a single class of “human””?
+	A: .human
+    22. What is a parent child selector? When would this be useful?
+	A: The child selector are inside another slector called parent. This is usful when a certain amount of selector are going to be formated in a certain way and also individually.
+    23. How do you select all links within a div with the class of sidebar?
+	A: Using .sidebar
+    24. What is a pseudo selector?
+	A: Is a keyword added to a selector that specifies a special state of the selected element(s). 
+    25. What do we use the change the spacing between lines?
+	A: The line-height property.
+    26. What do we use to change the spacing between letters?
+	A: The letter-specing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	A: Capitalized.
+    28. How do I add a 1px border around my div that is dotted and black?
+	A: border: 1px, dotted; border-color: black; 
+    29. How do I select everything on the page? 
+	Usinng the * selector
+    30. How do I write a comment in CSS?
+	A: slector { property:valur; } 
+    31. How do I find out what file I am in, when I am using the command line? 
+	A: Using the pwd.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	A: Using the ls.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	A: Using the rm comand
+    34. Why should I use version control? 
+	A: It's the best way to modify a master code without compromising it.
+    35. How often should I commit to github?
+	A: When a new version of the code is ready for a pull request.
+    36. What is the command we would use to push our repo up to github? 
+	A: git push
+    37. Walk me through Lambda's git flow. 
+	A: Fork, Clone, Branch, Commit, Push, Pull Request, Merge.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	A: inline will place the elements on a single line in order and the block will place them on a colum.
+    2. What happens when an element is positioned absolutely? 
+	A: An absolutely positioned element no longer exists in the normal document layout flow. Instead, it sits on its own layer separate from everything else.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	A: You can adjust the widht size of the element and removed the border and margin. 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	A: Block: div, section and header. Inline: nav and p. inline: ul.
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+	A: A box model has (from the outside to the inside) Margin, Border, Pading and Content. You need to take into consideration al the value of everything for the total width.
